@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 71px;
+            margin-top: 240px;
+        }
+        div.relative {
+            position: relative;
+            width: 275px;
+            height: 300px;
+            background-image: url("images.jpg");
+          } 
+          
+          div.absolute {
+            position: absolute;
+            top: 40px;
+            left: -62px;
+            width: 200px;
+            height: 222px;
+            background-image: url("images\ \(2\).jpg");
+          }
+          div.relative1 {
+            position: relative;
+            width: 275px;
+            height: 300px;
+            background-image: url("images\ \(1\).jpg");
+          } 
+          
+          div.absolute1 {
+            position: absolute;
+            top: 40px;
+            left: -62px;
+            width: 200px;
+            height: 222px;
+         background-image: url("download.jpg");
+          }
+    </style>
+</head>
+<body>
+    <div style="display: flex; justify-content: space-evenly">
+    <div class="relative">
+        <div class="absolute"></div>
+    </div>
+    <div class="relative1">
+        <div class="absolute1"></div>
+    </div>
+    </div>
+</body>
+</html>
